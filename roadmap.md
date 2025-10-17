@@ -11,7 +11,7 @@ intended to be run from a flash drive, the file structure is as follows:
 
 > /themes/(theme ID, same format as Program ID)/(Theme Assets, CSS and Image files)
 
-> /colorpal/(color palette files for basic themes, similar to Classic Windows theme. JSON files with .thm extension)
+> /colorpal/(color palette files for basic themes, similar to Classic Windows theme. JSON files with .pal extension)
 
 > index.html <--- Bootloader 
 
