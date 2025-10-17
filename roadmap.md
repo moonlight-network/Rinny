@@ -5,21 +5,25 @@
 ### Power User Configuration (PUC)
 
 intended to be run from a flash drive, the file structure is as follows:
-> /programs/(Program ID, 8 characters long, alphanumeric, case-sensitive)/(Program Files)
+> `/programs/`(Program ID, 8 characters long, alphanumeric, case-sensitive)/(Program Files)
 
-> /kernel/(critical system files, default settings, system programs)
+> `/kernel/`(critical system files, default settings, system programs)
 
-> /themes/(theme ID, same format as Program ID)/(Theme Assets, CSS and Image files)
+> `/themes/`(theme ID, same format as Program ID)/(Theme Assets, CSS and Image files)
 
-> /colorpal/(color palette files for basic themes, similar to Classic Windows theme. JSON files with .pal extension)
+> `/colorpal/`(color palette files for basic themes, similar to the Classic Windows theme. These will be JSON files with `.pal` extension)
 
-> index.html <--- Bootloader 
+> `index.html` <--- Bootloader 
 
 > Root folder is to be named "Rinny"
 
-Basic User Configuration (BUC), intended to be downloaded and shared
+### Basic User Configuration (BUC) 
 
-rinny.html <--- The entire Rinny "OS" itself, containing built-in programs. Cookies store config, config can be downloaded as a JSON file with a .cnf extension in the event of switching computers.
+> intended to be downloaded and shared
+
+> `rinny.html` will be the entire Rinny "OS" itself, containing built-in programs. 
+
+> Cookies store your settings. Your settings can be downloaded as a JSON file with a .cnf extension at any time. This is useful if you want to carry your settings over.
 
 Look and feel: Mimic that of Classic Windows (95 to 2000/ME) with a Whistler (XP Beta)-like login manager/screen locker
 
