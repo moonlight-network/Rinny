@@ -1,0 +1,1 @@
+This is where custom theme folders go. In a default/fresh PUC instance, this will be empty. The folders containing them must have an alphanumeric name with 8 characters. Your custom themes also need `style.css` and `info.json` files.
