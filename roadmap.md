@@ -1,4 +1,4 @@
-# Rinny "Unblocked OS" plans for Chrome/Firefox directory layout
+# Rinny "Unblocked OS" plans
 
 ## Configurations
 
