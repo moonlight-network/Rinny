@@ -6,10 +6,15 @@
 
 intended to be run from a flash drive, the file structure is as follows:
 > /programs/(Program ID, 8 characters long, alphanumeric, case-sensitive)/(Program Files)
+
 > /kernel/(critical system files, default settings, system programs)
+
 > /themes/(theme ID, same format as Program ID)/(Theme Assets, CSS and Image files)
+
 > /colorpal/(color palette files for basic themes, similar to Classic Windows theme. JSON files with .thm extension)
+
 > index.html <--- Bootloader 
+
 > Root folder is to be named "Rinny"
 
 Basic User Configuration (BUC), intended to be downloaded and shared
