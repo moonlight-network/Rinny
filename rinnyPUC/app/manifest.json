@@ -1,0 +1,59 @@
+{
+  "name": "Moonlight Network Codename Rinny",
+  "short_name": "Rinny",
+  "description":"An advanced Unblocked Operating System, written entirely from the ground up.",
+  "categories":[
+    "Unblocked",
+    "Games",
+    "Gaming",
+    "School",
+    "OS",
+    "Operating System",
+    "Clockwork"
+  ],
+  "lang":"en",
+  "iarc_rating_id": "e58c174a-81d2-5c3c-32cc-34b8de4a52e9",
+  "dir":"ltr",
+  "launch_handler": {
+    "client_mode": ["navigate-existing", "auto"]
+  },
+  "id":"ty",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "scope": ".",
+  "icons": [
+    {
+      "src": "./icon_32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "./icon_64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "./icon_128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "./icon_256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "./icon_512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./icon_1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./"
+}
