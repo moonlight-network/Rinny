@@ -4,6 +4,24 @@
     <title>Rinny</title>
   </head>
   <body>
-    There's nothing here. I'll add some stuff soon.
+    <a href=""></a>
+    <script>
+      function start(){
+        const win = window.open()
+        const link = win.document.createElement("link")
+        const iframe = win.document.createElement('iframe')
+        link.rel = "stylesheet"
+        link.href = "frame.css"
+        win.document.body.style.margin = 0
+        iframe.src = "./luul.html";
+        iframe.allowFullscreen = true
+        iframe.frameBorder = "0"
+        iframe.style.width = "100%";
+        iframe.style.height = "100%";
+        win.document.title = "Rinny"
+        win.document.body.appendChild(iframe);
+        window.close()
+    }
+    </script>
   </body>
 </html>

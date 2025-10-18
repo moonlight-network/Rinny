@@ -46,7 +46,7 @@ Rinny is a codename, and it comes from Pretty Blood (as is with codenames for fu
 
 > 6.X: Ron
 
->Unstable/Preview: Elma
+> Unstable/Preview: Elma
 
 #### Program Codenames
 
