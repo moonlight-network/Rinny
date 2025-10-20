@@ -9,10 +9,22 @@
     <body>
         <noscript>Rinny requires JavaScript to run. Please enable JavaScript in order to use Rinny.</noscript>
          <span id="bar" width="100%" height="10%">
-        <button class="barbtn" onclick="menu()" height=5%><img src="img/rinnyLogo.png"></button>
+        <button class="barbtn" onclick="openCloseMenu()" height=5%><img src="img/rinnyLogo.png"></button>
         </span><br/>
-        <div id="menu" hidden>
+        <div id="actMenu" hidden>
         </div>
+        <div id="progMenu">
+        </div>
+        <script>
+            function openCloseMenu(){
+                let actMenu = document.getElementById("actMenu")
+                if (menu.hidden == true){
+                    menu.hidden = false
+                } else {
+                    menu.hidden = true
+                }
+            }
+        </script>
         <script src="lib/core.js" defer></script>
         <script src="giko/win.js" defer></script>
         <script src="giko/bar.js" defer></script>
