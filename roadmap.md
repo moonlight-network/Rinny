@@ -36,13 +36,13 @@ Rinny is a codename, and it comes from Pretty Blood (as is with codenames for fu
 
 > 1.X: Rinny
 
-> 2.X: Bloon
+> 2.X: Luny
 
-> 3.X: Batric
+> 3.X: Bloon
 
-> 4.X: Sadny
+> 4.X: Batric
 
-> 5.X: Eluca
+> 5.X: Sadny
 
 > 6.X: Ron
 
