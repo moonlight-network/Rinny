@@ -78,5 +78,5 @@ These are to be named after the Ascii Art cats (and other AA characters) from 2c
 
 ### Logo
 
-Until I come up with a reasonable design, I'll use a modified version of the Windows 3.1 Beta logo with Rinny's face in it. 
+A logo has been designed and is currently in use. However, this won't be the final logo.
 
