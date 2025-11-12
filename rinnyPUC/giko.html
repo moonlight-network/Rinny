@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rinny Operating System under Giko Shell</title>
+</head>
+
+<body>
+  <noscript>Rinny requires JavaScript to run. Please enable JavaScript and try again.</noscript>
+  <!--tf kinda person doesn't have JS enabled? Still including this because fuck it, we ball.-->
+        <div id=Desktop>
+          <div id="menu" hidden>
+    <button class="mitem" onclick="newWindow('programs/0/index.html','Example Program')">Games</button>
+  </div>
+           <span id="bar" width="100%" height="10%">
+    <button class="barbtn" onclick="menu()"><img src="kernel/img/rinnyLogo.png" height=10%></button>
+  </span><br/>
+    </div>
+    <div id="clockscreen" style="display:none"></div>
+      <div id="clock"></div>
+      <div id="date"></div>
+      <style>
+        #bar{
+  position:absolute;
+  bottom:0px;
+  left:0px;
+  width: 100%;
+  height: 10%;
+  background-color: darkgrey;
+  /*The only sane style here. Fuck my life.*/
+}
+#clock{
+  position: absolute;
+  right:0px;
+  bottom:-75%; /*This is stupid, but at least the clock ligns up with the bar. Who am I to complain?*/
+}
+#menu{
+  position:absolute;
+  bottom:10%;
+  left:0%;
+  background-color: darkgray;
+  width: 15%;
+}
+#menubtn{
+  position:absolute;
+  bottom: 0%;
+  display:flex;
+  height:100%;
+  width:2.6%; /*that feeling when you have an oversized menu button that clips into the programs menu*/
+}
+      </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+  function newWindow(src, title="Untitled Window", ico="kernel/img/generic.svg", width, height, x="center", y="center"){
+  let win = new WinBox({
+    url: src,
+    title: title,
+    icon: ico,
+    class: wclass,
+    x:x,
+    y:y,
+  })
+}
+const smenu = document.getElementById("menu")
+function menu(){
+  if(document.getElementById("menu").hidden == false){
+    smenu.hidden = true
+    console.log("The menu should hide")
+  }
+  else{
+    smenu.hidden = false
+    console.log("The menu should show")
+  }
+
+}
+smenu.onclick = function(){
+  smenu.hidden=true
+  console.log("The menu should hide and whatever was clicked should do something")
+}
+window.onbeforeunload = function() {
+    return true;
+};
+//ROFL, GoGuardian! Your flimsy extension-based filters are weaker than that Thneedville wall from The 2012 Lorax movie.</script>
+  <script src="lib/winbox.js"></script>
+  <script src="lib/clock.js"></script>
+  <script type="module" src="lib/js-cookie.js"></script>
+    
+  
+
+
+
+
+
+
+
+    </body>
+</html>
